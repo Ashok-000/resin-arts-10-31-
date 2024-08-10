@@ -1,0 +1,138 @@
+/* General Styles */
+h1{
+    color:#ff4343;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+section {
+    padding: 20px 0;
+}
+
+#home {
+    background: #ffdddd;
+    text-align: center;
+    padding: 40px 0;
+}
+
+#home h2 {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+#gallery {
+    background: #fdfcfc;
+}
+
+#gallery .gallery-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#gallery .gallery-item {
+    flex-basis: 31%;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#gallery .gallery-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#contact {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: auto;
+}
+
+#contact label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#contact button {
+    padding: 10px 20px;
+    border: none;
+    background: #ff6363;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#contact button:hover {
+    background: #ff4343;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
